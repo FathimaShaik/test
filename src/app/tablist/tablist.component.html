@@ -1,0 +1,43 @@
+<div class="container">
+  <div>
+    <mat-card class="head mat-elevation-z8">
+      <p class="profile">Simple Table</p>
+
+    </mat-card>
+  </div>
+ 
+  <div *ngIf="data1">
+    <table mat-table [dataSource]="data1" class="mat-elevation-z8" >
+      <ng-container matColumnDef="ID">
+        <th class="shift" mat-header-cell *matHeaderCellDef> ID. </th>
+        <td mat-cell *matCellDef="let element"> {{element.ID}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="Name">
+        <th class="shift" mat-header-cell *matHeaderCellDef> Name </th>
+        <td mat-cell *matCellDef="let element"> {{element.Name}} </td>
+      </ng-container>
+
+
+      <ng-container matColumnDef="Country">
+        <th class="shift" mat-header-cell *matHeaderCellDef> Country </th>
+        <td mat-cell *matCellDef="let element"> {{element.Country}} </td>
+      </ng-container>
+
+
+      <ng-container matColumnDef="City">
+        <th class="shift" mat-header-cell *matHeaderCellDef> City </th>
+        <td mat-cell *matCellDef="let element"> {{element.City}} </td>
+      </ng-container>
+      <ng-container matColumnDef="Salary">
+          <th class="shift" mat-header-cell *matHeaderCellDef> Salary </th>
+          <td mat-cell *matCellDef="let element"> {{element.Salary}} </td>
+        </ng-container>
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+  </div>
+
+
+
+</div>

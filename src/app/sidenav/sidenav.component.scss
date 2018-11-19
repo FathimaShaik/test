@@ -1,0 +1,87 @@
+.sidenav{
+    // height:100vh;
+    margin-left: -10px;
+    margin-top: 579px;
+    // padding: 10px;
+    height:125vh;
+    width:15.5%;
+    z-index: 1;
+    background-color: white;;
+    position: absolute;
+
+}
+.sidenav1{
+    margin-left: 10px;
+    /* margin-top: 579px; */
+    height: 125vh;
+    width: 96.5%;
+    z-index: -1;
+    background-color: white;
+    position: absolute;
+    opacity: 0.1;
+}
+
+.text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2vw;
+    text-align: center;
+    text-decoration: underline rgb(214, 211, 211);
+    margin-top: 56px;
+
+}
+.cards{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 11vw;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-left: 18%;
+    height: 5vh;
+    font-size: 1vw;
+    cursor: pointer;
+    z-index: 2;
+}
+.cards:focus{
+    width: 11vw;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 18%;
+    height: 5vh;
+    font-size: 1vw;
+    cursor: pointer;
+    z-index: 2;
+    background-color: #9c27b0;
+    color: white ;
+}
+// .cards:focus i
+// {
+//         color:red
+//     }
+
+
+
+.material-icons{
+    margin-left: -62%;
+    margin-top: 2%;
+    position: relative;
+    font-size:1.4vw;
+
+}
+.text1{
+    text-align: left;
+    margin-left: 30%;
+    margin-top: -16.5%;
+
+  
+}
+.class1 {
+    color: white;
+   
+ }
+ .class2 {
+    color: rgb(153, 150, 150);
+ }
+ 

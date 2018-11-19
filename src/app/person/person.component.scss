@@ -1,0 +1,70 @@
+.container{
+    height: 94vh;
+    width: 205%;
+    position: absolute;
+    // background-color: floralwhite;
+    margin-left: 14%;
+}
+.card{
+    
+    height: 70vh;
+    width: 62vw;
+    margin-left: 18%;
+    position: relative;
+    margin-top: 4%;
+}
+.head{
+    background-color: #9c27b0;
+    border-radius: 6px;
+    height: 8vh;
+    width: 58.5vw;
+    margin-left: 20%;
+    position: absolute;
+    margin-top: 3%;
+    z-index: 2;
+
+}
+.profile{
+    color: white;
+    padding-top: 1%;
+    margin-left: 3%;
+    font-size: 1vw;
+}
+.form-control{
+    width: 100%;
+    border: transparent;
+    border-bottom: 2px solid #d2d2d2;
+    box-shadow: none;
+    outline: none;
+    border-radius: 0%;
+}
+.form-control:focus{
+    width: 100%;
+    border: transparent;
+    border-bottom: 2px solid #9c27b0;
+    box-shadow: none;
+    outline: none;
+}
+
+.form-group{
+    width:70%;
+    margin-left: 18%;
+}
+.form-control1{
+  height:15vh;
+  width: 100%;
+  border: transparent;
+  border-bottom: 2px solid #d2d2d2;
+  box-shadow: none;
+  outline: none;  
+}
+.form-control1:focus{
+    border-bottom: 2px solid #9c27b0;
+
+  }
+  .btn{
+      margin-left: 79%;
+      color: white;
+      background-color: #9c27b0;
+
+  }
